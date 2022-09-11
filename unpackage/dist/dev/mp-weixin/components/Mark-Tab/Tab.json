@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "scroll-nav": "/components/Mark-Tab/ScrollNav"
+  }
+}

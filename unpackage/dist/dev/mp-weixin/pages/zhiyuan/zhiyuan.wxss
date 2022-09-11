@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.status_bar.data-v-59166ee0 {
+  height: calc(25px);
+  width: 100%;
+  background-color: #b50e03;
+}
+.content.data-v-59166ee0 {
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.content .campus_item.data-v-59166ee0 {
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  margin: 25rpx 20rpx;
+  margin-bottom: 0;
+  padding: 20rpx 30rpx;
+  border-radius: 20rpx;
+}
+.content .campus_item .campus_item_top.data-v-59166ee0 {
+  box-sizing: border-box;
+  display: flex;
+  line-height: 45rpx;
+  position: relative;
+}
+.content .campus_item .campus_item_top .time.data-v-59166ee0 {
+  position: absolute;
+  right: 0;
+  font-size: 26rpx;
+  color: #808080;
+}
+.content .campus_item .campus_item_top .left.data-v-59166ee0 {
+  width: 100rpx;
+  margin-right: 30rpx;
+}
+.content .campus_item .campus_item_top .left .schoolimg.data-v-59166ee0 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.content .campus_item .campus_item_top .left text.data-v-59166ee0 {
+  color: #fff;
+  font-size: 26rpx;
+  display: block;
+  text-align: center;
+  padding: 6rpx 3rpx;
+  margin-top: 30rpx;
+  border-radius: 8rpx;
+  background-color: #ff9620;
+}
+.content .campus_item .campus_item_top .left .wen.data-v-59166ee0 {
+  background-color: #007aff;
+}
+.content .campus_item .campus_item_top .left .bao.data-v-59166ee0 {
+  background-color: #4cd964;
+}
+.content .campus_item .campus_item_top .right .schoolname.data-v-59166ee0 {
+  font-size: 32rpx;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 319rpx;
+}
+.content .campus_item .campus_item_top .right .num.data-v-59166ee0 {
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+.content .campus_item .campus_item_top .right .num text.data-v-59166ee0:nth-child(1) {
+  color: #808080;
+}
+.content .campus_item .campus_item_top .right .num text.data-v-59166ee0:nth-child(2) {
+  margin-left: 10rpx;
+}
+.content .campus_item .campus_item_top .right .num text.data-v-59166ee0:nth-child(3) {
+  margin-left: 30rpx;
+}
+.content .campus_item .campus_item_top .right .num text.data-v-59166ee0:nth-child(3),
+.content .campus_item .campus_item_top .right .num text.data-v-59166ee0:nth-child(4),
+.content .campus_item .campus_item_top .right .num text.data-v-59166ee0:nth-child(5) {
+  color: #808080;
+}
+.content .campus_item .campus_item_top .right .plan.data-v-59166ee0 {
+  font-size: 30rpx;
+  color: #808080;
+}
+.content .campus_item .campus_item_top .right .plan text.data-v-59166ee0:nth-child(2) {
+  margin-left: 10rpx;
+  color: #000;
+}
+.content .campus_item .campus_item_top .right .grades.data-v-59166ee0 {
+  font-size: 30rpx;
+  color: #808080;
+}
+.content .campus_item .campus_item_top .right .grades text.data-v-59166ee0:nth-child(2),
+.content .campus_item .campus_item_top .right .grades text.data-v-59166ee0:nth-child(4) {
+  margin-left: 10rpx;
+  color: #000;
+}
+.content .campus_item .campus_item_top .right .grades text.data-v-59166ee0:nth-child(3) {
+  margin-left: 30rpx;
+}
+.content .campus_item .btn_line.data-v-59166ee0 {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px dashed rgba(39, 40, 50, 0.1);
+  border-top: 1px dashed rgba(39, 40, 50, 0.1);
+  padding: 20rpx 0;
+  color: rgba(39, 40, 50, 0.6);
+}
+.content .campus_item .btn_line .btn.data-v-59166ee0 {
+  box-sizing: border-box;
+  border: 1px solid #f87869;
+  color: #f87869;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 0;
+}
+.content .campus_item .btn_line .btn .iconfont.data-v-59166ee0 {
+  margin-left: 5rpx;
+}
+.content .campus_item .subject.data-v-59166ee0 {
+  box-sizing: border-box;
+}
+.content .scroll_y.data-v-59166ee0 {
+  height: 100vh;
+  width: 100%;
+}
+.content .expand_item.data-v-59166ee0 {
+  box-sizing: border-box;
+  padding: 30rpx 0;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid rgba(39, 40, 50, 0.1);
+}
+.content .expand_item .expand_item_top.data-v-59166ee0 {
+  box-sizing: border-box;
+  display: flex;
+  line-height: 45rpx;
+  flex-wrap: wrap;
+}
+.content .expand_item .expand_item_top .top.data-v-59166ee0 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.content .expand_item .expand_item_top .top .zy.data-v-59166ee0 {
+  font-size: 26rpx;
+  color: #808080;
+}
+.content .expand_item .expand_item_top .top .schoolimg.data-v-59166ee0 {
+  text-align: center;
+  padding: 10rpx 10rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  border: 1px solid #f87869;
+  height: 50rpx;
+  background-color: #fff;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  letter-spacing: 10rpx;
+  color: #f87869;
+}
+.content .expand_item .expand_item_top .top .schoolimg_active.data-v-59166ee0 {
+  background-color: #f87869;
+  color: #fff;
+}
+.content .expand_item .expand_item_top .left.data-v-59166ee0 {
+  font-size: 24rpx;
+}
+.content .expand_item .expand_item_top .left .schoolname.data-v-59166ee0 {
+  font-size: 32rpx;
+}
+.content .expand_item .expand_item_top .left .num.data-v-59166ee0 {
+  margin-top: 10rpx;
+  color: #808080;
+}
+.content .expand_item .expand_item_top .left .num text.data-v-59166ee0:nth-child(2) {
+  margin-left: 10rpx;
+}
+.content .expand_item .expand_item_top .left .num text.data-v-59166ee0:nth-child(3),
+.content .expand_item .expand_item_top .left .num text.data-v-59166ee0:nth-child(5) {
+  margin-left: 30rpx;
+}
+.content .expand_item .expand_item_top .left .num text.data-v-59166ee0:nth-child(4) {
+  margin-left: 10rpx;
+}
+.content .expand_item .expand_item_top .left .num text.data-v-59166ee0:nth-child(6) {
+  margin-left: 10rpx;
+}
+.content .expand_item .expand_item_top .left .plan.data-v-59166ee0 {
+  color: #808080;
+}
+.content .expand_item .expand_item_top .left .plan text.data-v-59166ee0:nth-child(2),
+.content .expand_item .expand_item_top .left .plan text.data-v-59166ee0:nth-child(3),
+.content .expand_item .expand_item_top .left .plan text.data-v-59166ee0:nth-child(5) {
+  margin-left: 10rpx;
+}
+.content .expand_item .expand_item_top .left .plan text.data-v-59166ee0:nth-child(4) {
+  margin-left: 30rpx;
+}
+.content .expand_item .expand_item_top .left .grades.data-v-59166ee0 {
+  margin-left: 88rpx;
+  color: #808080;
+}
+.content .expand_item .expand_item_top .left .grades text.data-v-59166ee0:nth-child(2),
+.content .expand_item .expand_item_top .left .grades text.data-v-59166ee0:nth-child(4) {
+  margin-left: 10rpx;
+}
+.content .expand_item .expand_item_top .left .grades text.data-v-59166ee0:nth-child(3) {
+  margin-left: 30rpx;
+}
+.content .expand_item .btn_line.data-v-59166ee0 {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px dashed rgba(39, 40, 50, 0.1);
+  border-top: 1px dashed rgba(39, 40, 50, 0.1);
+  padding: 20rpx 0;
+  color: rgba(39, 40, 50, 0.6);
+}
+.content .expand_item .btn_line .btn.data-v-59166ee0 {
+  box-sizing: border-box;
+  border: 1px solid #f87869;
+  color: #f87869;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 0;
+}
+.content .expand_item .btn_line .btn .iconfont.data-v-59166ee0 {
+  margin-left: 5rpx;
+}
+.content .expand_item .subject.data-v-59166ee0 {
+  box-sizing: border-box;
+  background-color: pink;
+  padding: 40rpx 30rpx;
+}
+.content .bottom.data-v-59166ee0 {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+

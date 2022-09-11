@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/ranking/ranking",
+    "pages/pay/pay",
+    "pages/member/member",
+    "pages/list/list",
+    "pages/grades/grades",
+    "pages/about/about",
+    "pages/apoint/apoint",
+    "pages/zhiyuan/zhiyuan",
+    "pages/danList/danList",
+    "pages/tfqx/tfqx",
+    "pages/toudanx/toudanx",
+    "pages/zhaosheng/zhaosheng",
+    "pages/inform/inform",
+    "pages/toutiao/toutiao",
+    "pages/yiduiyi/yiduiyi",
+    "pages/shengkong/shengkong",
+    "pages/luqulu/luqulu"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "填志愿",
+    "navigationBarBackgroundColor": "#b50e03",
+    "backgroundColor": "#f6f6f6",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#f6f6f6",
+    "selectedColor": "#b50e03",
+    "color": "#CCC",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "志愿",
+        "iconPath": "static/img/zhiyuan.png",
+        "selectedIconPath": "static/img/zhiyuan_active.png"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "text": "我的",
+        "iconPath": "static/img/member.png",
+        "selectedIconPath": "static/img/member_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

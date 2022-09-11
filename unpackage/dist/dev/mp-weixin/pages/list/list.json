@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "志愿模拟填报",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "h-m-filter-dropdown": "/uni_modules/HM-filterDropdown/components/HM-filterDropdown/HM-filterDropdown",
+    "tab": "/components/Mark-Tab/Tab"
+  }
+}

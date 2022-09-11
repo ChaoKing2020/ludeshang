@@ -1,0 +1,36 @@
+.component-view-tab.data-v-26ccc036 {
+  width: 100%;
+  overflow: auto;
+}
+.component-view-tab .scroll-view.data-v-26ccc036 {
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+.component-view-tab .scroll-view .scroll-view-content.data-v-26ccc036,
+.component-view-tab .scroll-view display.data-v-26ccc036:flex,
+.component-view-tab .scroll-view .tab-wrapper.data-v-26ccc036 {
+  width: 100%;
+  display: flex;
+  felx-wrap: nowrap;
+  position: relative;
+}
+.component-view-tab .scroll-view .scroll-view-content.animate.data-v-26ccc036,
+.component-view-tab .scroll-view display:flex.animate.data-v-26ccc036,
+.component-view-tab .scroll-view .tab-wrapper.animate.data-v-26ccc036 {
+  transition: all 0.3s;
+}
+.component-view-tab .scroll-view .scroll-view-content .tab.data-v-26ccc036,
+.component-view-tab .scroll-view display:flex .tab.data-v-26ccc036,
+.component-view-tab .scroll-view .tab-wrapper .tab.data-v-26ccc036 {
+  min-width: 100%;
+  max-width: 100%;
+}
+.component-view-tab .scroll-view .scroll-view-content .tab .tab-content.data-v-26ccc036,
+.component-view-tab .scroll-view display:flex .tab .tab-content.data-v-26ccc036,
+.component-view-tab .scroll-view .tab-wrapper .tab .tab-content.data-v-26ccc036 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+

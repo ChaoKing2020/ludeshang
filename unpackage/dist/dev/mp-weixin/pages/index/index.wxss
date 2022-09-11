@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.status_bar.data-v-57280228 {
+  height: calc(25px);
+  width: 100%;
+  background-color: #b50e03;
+}
+.icon.data-v-57280228 {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.content.data-v-57280228 {
+  box-sizing: border-box;
+  padding: 0 40rpx;
+  height: 100%;
+  background-color: #FFFFFF;
+  font-size: 36rpx;
+  color: #afafaf;
+}
+.bgc.data-v-57280228 {
+  margin-left: -40rpx;
+  margin-right: -40rpx;
+  box-sizing: border-box;
+  padding: 40rpx 40rpx;
+  background: linear-gradient(#b50e03, #e3a6a2, #fff);
+}
+.top.data-v-57280228 {
+  height: 600rpx;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 25rpx;
+  box-sizing: border-box;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.top .userInfo.data-v-57280228 {
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top .userInfo .userInfo_left.data-v-57280228 {
+  display: flex;
+  align-items: center;
+}
+.top .userInfo .userInfo_left .avatar.data-v-57280228 {
+  overflow: hidden;
+  width: 94rpx;
+  height: 94rpx;
+  border-radius: 47rpx;
+}
+.top .userInfo .userInfo_left .avatar image.data-v-57280228 {
+  width: 100%;
+  height: 100%;
+}
+.top .userInfo .userInfo_left .grades.data-v-57280228 {
+  margin-left: 20rpx;
+  line-height: 94rpx;
+  font-size: 30rpx;
+  color: #afafaf;
+}
+.top .userInfo .userInfo_left .grades .icon-bianjiqianbi.data-v-57280228 {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #42ba7a;
+}
+.top .userInfo .userInfo_left .grades text.data-v-57280228:nth-child(2) {
+  margin-left: 10rpx;
+}
+.top .userInfo .userInfo_left .grades .twf.data-v-57280228 {
+  font-size: 25rpx;
+}
+.top .userInfo .huiyuan.data-v-57280228 {
+  height: 50rpx;
+  width: 50rpx;
+}
+.top .school.data-v-57280228 {
+  flex: 1.5;
+  text-align: center;
+}
+.top .school .total.data-v-57280228 {
+  font-size: 100rpx;
+  color: #333333;
+  font-weight: 900;
+}
+.top .school .total text.data-v-57280228 {
+  font-size: 50rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.top .school .text.data-v-57280228 {
+  font-size: 30rpx;
+}
+.top .school .text text.data-v-57280228:nth-child(2) {
+  margin: 0 10rpx;
+}
+.top .details.data-v-57280228 {
+  flex: 1.3;
+  display: flex;
+  text-align: center;
+  color: #333333;
+  font-size: 50rpx;
+  font-weight: 900;
+}
+.top .details .suo.data-v-57280228 {
+  margin-left: 10rpx;
+  font-size: 36rpx;
+  color: #afafaf;
+  font-weight: 400;
+}
+.top .details .charge.data-v-57280228 {
+  padding-top: 22rpx;
+  flex: 1;
+  border-right: 1px solid #f6f6f6;
+}
+.top .details .charge .one.data-v-57280228 {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #ff9620;
+}
+.top .details .charge .one text.data-v-57280228 {
+  margin-left: 5rpx;
+  font-size: 25rpx;
+}
+.top .details .safe.data-v-57280228 {
+  flex: 1;
+  padding-top: 22rpx;
+  border-right: 1px solid #f6f6f6;
+}
+.top .details .safe .two.data-v-57280228 {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #3d9ff6;
+}
+.top .details .safe .two text.data-v-57280228 {
+  margin-left: 5rpx;
+  font-size: 25rpx;
+}
+.top .details .basic.data-v-57280228 {
+  flex: 1;
+  padding-top: 22rpx;
+}
+.top .details .basic .three.data-v-57280228 {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #42ba7a;
+}
+.top .details .basic .three text.data-v-57280228 {
+  margin-left: 5rpx;
+  font-size: 25rpx;
+}
+.top .submit.data-v-57280228 {
+  display: flex;
+  flex: 1;
+  margin-top: 40rpx;
+}
+.top .submit view.data-v-57280228 {
+  border-radius: 50rpx;
+  background-color: #b50e03;
+  color: #fcfaf4;
+  font-weight: 700;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top .submit view.data-v-57280228:nth-child(1) {
+  border-radius: 50rpx 0 0 50rpx;
+  background-color: #faefef;
+  color: #b50e03;
+}
+.top .submit view.data-v-57280228:nth-child(2) {
+  border-radius: 0 50rpx 50rpx 0;
+}
+.center.data-v-57280228 {
+  border-radius: 25rpx;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 20rpx;
+  flex-wrap: wrap;
+  color: #666;
+}
+.center .center_item.data-v-57280228 {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+}
+.center .center_item image.data-v-57280228 {
+  width: 80rpx;
+}
+.center .center_items.data-v-57280228 {
+  display: flex;
+  width: 25%;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center .center_items image.data-v-57280228 {
+  width: 80rpx;
+}
+.bottom.data-v-57280228 {
+  margin-top: 40rpx;
+  border-radius: 25rpx;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.bottom swiper.data-v-57280228 {
+  width: 100%;
+  height: 380rpx;
+}
+.bottom swiper image.data-v-57280228 {
+  height: 100%;
+  width: 100%;
+}
+.newsmain.data-v-57280228 {
+  box-sizing: border-box;
+  margin-top: 40rpx;
+  width: 100%;
+}
+.newsmain .video .video_title.data-v-57280228 {
+  width: 100%;
+  height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40rpx;
+  color: #333;
+  font-weight: 550;
+}
+.newsmain .video .video_main.data-v-57280228 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.newsmain .video .video_main .video_item.data-v-57280228 {
+  width: 48%;
+  text-align: center;
+  font-size: 28rpx;
+}
+.newsmain .video .video_main .video_item image.data-v-57280228 {
+  border-radius: 20rpx;
+}
+.newsmain .ranking.data-v-57280228 {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  color: #666;
+}
+.newsmain .ranking .Rank_right.data-v-57280228 {
+  margin-left: 30rpx;
+}
+.newsmain .ranking .Rank.data-v-57280228 {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.newsmain .ranking .Rank .Rank_title.data-v-57280228 {
+  background-color: #b50e03;
+  color: #fcfaf4;
+  box-sizing: border-box;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.newsmain .ranking .Rank .Rank_main.data-v-57280228 {
+  font-size: 28rpx;
+  background-color: #f8f8f8;
+}
+.newsmain .ranking .Rank .Rank_main view.data-v-57280228 {
+  height: 66rpx;
+  line-height: 66rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.newsmain .news.data-v-57280228 {
+  margin-top: 40rpx;
+}
+.newsmain .news .news_title.data-v-57280228 {
+  width: 100%;
+  height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40rpx;
+  color: #333;
+  font-weight: 550;
+}
+.newsmain .news .news_main.data-v-57280228 {
+  width: 100%;
+  color: #666;
+}
+.newsmain .news .news_main .news_item.data-v-57280228 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(39, 40, 50, 0.1);
+  font-size: 28rpx;
+}
+

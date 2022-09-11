@@ -1,0 +1,65 @@
+{
+  "id": "3113998",
+  "name": "edcation使用的",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577312",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e726",
+      "unicode_decimal": 59174
+    },
+    {
+      "icon_id": "1304890",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1638281",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "4175511",
+      "name": "下箭头",
+      "font_class": "xiajiantou1",
+      "unicode": "eb6d",
+      "unicode_decimal": 60269
+    },
+    {
+      "icon_id": "1302809",
+      "name": "关于我们",
+      "font_class": "guanyuwomen",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "10608379",
+      "name": "修改信息",
+      "font_class": "xiugaixinxi1",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "16328021",
+      "name": "成绩",
+      "font_class": "chengji",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "10594757",
+      "name": "表-带图表单_jurassic",
+      "font_class": "jurassic_form-image",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    }
+  ]
+}
